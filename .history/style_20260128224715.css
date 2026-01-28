@@ -1,0 +1,26 @@
+*.inter-<uniquifier> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Logo, Menu, ar Button ke tin dike soraye dibe */
+    align-items: center; /* Vertical-e shob majhkhan-e thakbe */
+    padding: 20px 5%;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    margin: 0 15px; /* Menu item gulor majhe faka jaiga */
+}
+
+.btn-early {
+    background-color: #46a358;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}

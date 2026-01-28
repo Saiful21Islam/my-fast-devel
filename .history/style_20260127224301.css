@@ -1,0 +1,124 @@
+/* Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    background: #fff;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 15px;
+    font-weight: 500;
+}
+
+.btn-access {
+    background: #46a358;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Hover Effect Challenge */
+.btn-access:hover, .btn-primary:hover {
+    background: #368a46;
+}
+
+/* Banner Section */
+.banner {
+    background: url('assets/hero-bg.png') no-repeat center center/cover;
+    height: 90vh;
+    color: white;
+}
+
+.banner-overlay {
+    background: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.highlight { color: #46a358; }
+
+/* Notes Card Row */
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 8%;
+    gap: 20px;
+}
+
+.card {
+    background: #fbfaf9;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    text-align: center;
+    flex: 1;
+}
+
+.icon-box {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto 15px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-red { background: #eb6b02; color: #ff4d4d; }
+.icon-orange { background: #eb6b02; color: #ff9933; }
+
+/* Second Brain Section (Flex Layout) */
+.second-brain {
+    display: flex;
+    align-items: center;
+    padding: 80px 8%;
+    gap: 50px;
+}
+
+.brain-left, .brain-right { flex: 1; }
+
+.brain-right ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.brain-right li::before {
+    content: '✔';
+    color: #46a358;
+    margin-right: 10px;
+}
+
+/* Footer */
+.footer {
+    background: #001529;
+    color: white;
+    padding: 40px 8%;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+hr { border: 0.5px solid #333; margin: 20px 0; }
+.copyright { text-align: center; font-size: 14px; color: #aaa; }
+.social-icons{}
