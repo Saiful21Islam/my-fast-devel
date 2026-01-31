@@ -206,13 +206,13 @@ h1 {
 
 .second-brain {
     display: flex;
-    align-items: center; 
+    align-items: center; /* Image ar text ke pashapashi majhkhane rakhbe */
     padding: 80px 10%;
-    gap: 60px; 
+    gap: 60px; /* Image ar text-er majhkhane faka jaiga */
 }
 
 .brain-visual, .brain-content {
-    flex: 1; 
+    flex: 1; /* Duto side-e shoman jaiga nibe */
 }
 
 .brain-visual img {

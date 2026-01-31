@@ -206,13 +206,13 @@ h1 {
 
 .second-brain {
     display: flex;
-    align-items: center; 
+    align-items: center; /* Image ar text ke pashapashi majhkhane rakhbe */
     padding: 80px 10%;
-    gap: 60px; 
+    gap: 60px; /* Image ar text-er majhkhane faka jaiga */
 }
 
 .brain-visual, .brain-content {
-    flex: 1; 
+    flex: 1; /* Duto side-e shoman jaiga nibe */
 }
 
 .brain-visual img {
@@ -236,32 +236,32 @@ h1 {
 
 /* Feature List Styling */
 .feature-list {
-    list-style: none; 
+    list-style: none; /* Bullet point bad dewar jonno */
     padding: 0;
     margin-top: 25px;
 }
 
 .feature-list li {
-    display: flex; 
-    align-items: center; 
+    display: flex; /* Circle ar lekha pashapashi rakhar jonno */
+    align-items: center; /* Lekha ar circle ke ekdom shonanshonan rakhar jonno */
     margin-bottom: 16px;
     font-size: 16px;
-    color: #001529; 
+    color: #001529; /* Mockup-er dark blue text color */
 }
 
 /* Green Circle Checkmark magic */
 .feature-list li::before {
-    content: "✓"; 
-    color: white; 
-    background-color: #46a358; 
+    content: "✓"; /* Checkmark chihno */
+    color: white; /* Bhetorer chihno hobe shada */
+    background-color: #46a358; /* Britto-ta hobe shobuj */
     width: 22px;
     height: 22px;
-    border-radius: 50%; 
+    border-radius: 50%; /* Gol korar jonno */
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 12px; 
+    margin-right: 12px; /* Lekha theke ektu faka rakhar jonno */
     font-size: 12px;
     font-weight: bold;
-    flex-shrink: 0; 
+    flex-shrink: 0; /* Jate circle ta chapa na hoye jay */
 }

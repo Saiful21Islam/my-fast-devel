@@ -206,13 +206,13 @@ h1 {
 
 .second-brain {
     display: flex;
-    align-items: center; 
+    align-items: center; /* Image ar text ke pashapashi majhkhane rakhbe */
     padding: 80px 10%;
-    gap: 60px; 
+    gap: 60px; /* Image ar text-er majhkhane faka jaiga */
 }
 
 .brain-visual, .brain-content {
-    flex: 1; 
+    flex: 1; /* Duto side-e shoman jaiga nibe */
 }
 
 .brain-visual img {
@@ -236,14 +236,14 @@ h1 {
 
 /* Feature List Styling */
 .feature-list {
-    list-style: none; 
+    list-style: none; /* Bullet point bad dewar jonno */
     padding: 0;
     margin-top: 25px;
 }
 
 .feature-list li {
-    display: flex; 
-    align-items: center; 
+    display: flex; /* Circle ar lekha pashapashi rakhar jonno */
+    align-items: center; /* Lekha ar circle ke ekdom shonanshonan rakhar jonno */
     margin-bottom: 16px;
     font-size: 16px;
     color: #001529; 
