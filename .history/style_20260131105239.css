@@ -1,0 +1,82 @@
+*
+.inter-uniquifier {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Logo, Menu, ar Button ke tin dike soraye dibe */
+    align-items: center; /* Vertical-e shob majhkhan-e thakbe */
+    padding: 20px 5%;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    margin: 0 15px; /* Menu item gulor majhe faka jaiga */
+}
+
+.btn-early {
+    background-color: #46a358;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+.banner {
+    /* Background image setup */
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('assets/hero-bg.png'); 
+    background-size: cover; /* Chhobi ta puru jayga jure thakbe */
+    background-position: center;
+    height: 500px; /* Banner-er lamba map */
+    
+    /* Content ke majhkhane anar magic */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.early-badge{
+    color: #3e8e4d;
+    b
+}
+.green-text {
+    color: #46a358; /* Figma-r shei shobuj rong */
+}
+
+/* Button Hover Effect (Challenge Requirement) */
+.btn-primary:hover {
+    background-color: #3e8e4d;
+    cursor: pointer;
+}
+/* Google font add kora (Inter font ti modern dekhay) */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif; /* Clean fonts like the screenshot */
+    color: #001529; /* Dark blueish black from the mockup */
+    line-height: 1.6; /* Text gulor majhe faka jayga rakhar jonno */
+}
+
+/* Heading style */
+h1 {
+    font-size: 56px; /* Boro bold heading */
+    font-weight: 700;
+    letter-spacing: -1px; /* Font gulo ektu ghasaghashi thakbe modern look-er jonno */
+}
+
+/* Green Highlight */
+.green-text {
+    color: #46a358;
+}
+
+/* Banner text spacing */
+.banner p {
+    font-size: 18px;
+    color: #cfd8dc; /* Halka gray jate chokhe na lage */
+    max-width: 650px; /* Text line beshi lamba jate na hoy */
+    margin: 20px auto;
+}
